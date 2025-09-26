@@ -6,31 +6,31 @@ const Skills = () => {
     {
       title: 'Frontend',
       skills: [
-        { name: 'React', level: 90 },
-        { name: 'JavaScript', level: 95 },
-        { name: 'HTML/CSS', level: 95 },
-        { name: 'TypeScript', level: 80 },
-        { name: 'Vue.js', level: 75 }
+        { name: 'React' },
+        { name: 'JavaScript' },
+        { name: 'HTML/CSS' },
+        { name: 'TypeScript' },
+        { name: 'Vue.js' }
       ]
     },
     {
       title: 'Backend',
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Python', level: 80 },
-        { name: 'Express.js', level: 90 },
-        { name: 'MongoDB', level: 85 },
-        { name: 'PostgreSQL', level: 80 }
+        { name: 'Node.js' },
+        { name: 'Python' },
+        { name: 'Express.js' },
+        { name: 'MongoDB' },
+        { name: 'PostgreSQL' }
       ]
     },
     {
       title: 'Tools & Others',
       skills: [
-        { name: 'Git', level: 90 },
-        { name: 'Docker', level: 75 },
-        { name: 'AWS', level: 70 },
-        { name: 'Figma', level: 85 },
-        { name: 'Agile', level: 80 }
+        { name: 'Git' },
+        { name: 'Docker' },
+        { name: 'AWS' },
+        { name: 'Figma' },
+        { name: 'Agile' }
       ]
     }
   ];
@@ -48,13 +48,6 @@ const Skills = () => {
                   <div key={skillIndex} className="skill-item">
                     <div className="skill-header">
                       <span className="skill-name">{skill.name}</span>
-                      <span className="skill-percentage">{skill.level}%</span>
-                    </div>
-                    <div className="skill-bar">
-                      <div 
-                        className="skill-progress" 
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
                     </div>
                   </div>
                 ))}
@@ -68,3 +61,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
