@@ -6,31 +6,37 @@ const Skills = () => {
     {
       title: 'Frontend',
       skills: [
-        { name: 'React' },
+        { name: 'Bootstrap' },
         { name: 'JavaScript' },
         { name: 'HTML/CSS' },
-        { name: 'TypeScript' },
-        { name: 'Vue.js' }
+        { name: 'Tailwind CSS' },
+        { name: 'Livewire' },
+        { name: 'Alpine.js' },
+        { name: 'React' }
       ]
     },
     {
       title: 'Backend',
       skills: [
-        { name: 'Node.js' },
-        { name: 'Python' },
-        { name: 'Express.js' },
-        { name: 'MongoDB' },
-        { name: 'PostgreSQL' }
+        { name: 'PHP' },
+        { name: 'Laravel' },
+        { name: 'SQLite' },
+        { name: 'MySQL' },
+        { name: 'SQL Server' },
+        { name: 'PostgreSQL' },
+        { name: 'GraphQL' }
       ]
     },
     {
       title: 'Tools & Others',
       skills: [
         { name: 'Git' },
-        { name: 'Docker' },
+        { name: 'Linux' },
         { name: 'AWS' },
         { name: 'Figma' },
-        { name: 'Agile' }
+        { name: 'Agile' },
+        { name: 'WordPress' },
+        { name: 'Shopify' }
       ]
     }
   ];
