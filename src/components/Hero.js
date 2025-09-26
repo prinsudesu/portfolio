@@ -39,19 +39,11 @@ const Hero = () => {
           </div>
           <div className="hero-image">
             <div className="hero-avatar">
-              <div className="avatar-placeholder">
-                <svg width="200" height="200" viewBox="0 0 200 200" fill="none">
-                  <circle cx="100" cy="100" r="100" fill="url(#gradient)" />
-                  <circle cx="100" cy="80" r="30" fill="white" />
-                  <path d="M70 140 Q100 120 130 140" stroke="white" strokeWidth="8" fill="none" strokeLinecap="round" />
-                  <defs>
-                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#667eea" />
-                      <stop offset="100%" stopColor="#764ba2" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
+              <img 
+                src="/resources/me.jpg" 
+                alt="Prince - Full Stack Developer" 
+                className="hero-photo"
+              />
             </div>
           </div>
         </div>

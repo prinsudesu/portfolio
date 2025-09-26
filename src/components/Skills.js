@@ -38,6 +38,15 @@ const Skills = () => {
         { name: 'WordPress' },
         { name: 'Shopify' }
       ]
+    },
+    {
+      title: 'Game Development',
+      skills: [
+        { name: 'C++' },
+        { name: 'C#' },
+        { name: 'DirectX' },
+        { name: 'Visual Studio' }
+      ]
     }
   ];
 

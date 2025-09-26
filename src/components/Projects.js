@@ -146,6 +146,15 @@ const Projects = () => {
       technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript'],
       live: '#',
       featured: true
+    },
+    {
+      id: 17,
+      title: 'Narratech Solutions Website',
+      description: 'Built a Business website for Narratech Solutions using PHP, JS,  CSS, and MySQL in Wordpress.',
+      image: '/resources/9.png',
+      technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript'],
+      live: 'https://narratechsolutions.com/',
+      featured: true
     }
   ];
 

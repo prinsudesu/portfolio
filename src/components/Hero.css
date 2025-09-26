@@ -77,11 +77,11 @@
   position: relative;
 }
 
-.avatar-placeholder {
+.hero-photo {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  overflow: hidden;
+  object-fit: cover;
   box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
   animation: float 3s ease-in-out infinite;
 }
@@ -190,7 +190,7 @@
     justify-content: center;
   }
 
-  .avatar-placeholder {
+  .hero-photo {
     width: 200px;
     height: 200px;
   }
