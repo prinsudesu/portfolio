@@ -155,6 +155,15 @@ const Projects = () => {
       technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript'],
       live: 'https://narratechsolutions.com/',
       featured: true
+    },
+    {
+      id: 18,
+      title: 'Primeline Products Philippines Inc.',
+      description: 'Built a Business website for Primeline Products Philippines Inc. using PHP, JS,  CSS, and MySQL in Wordpress.',
+      image: '/resources/10.png',
+      technologies: ['PHP', 'WordPress', 'HTML', 'CSS', 'JavaScript'],
+      live: 'https://primeline.com.ph/',
+      featured: true
     }
   ];
 

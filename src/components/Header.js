@@ -28,7 +28,7 @@ const Header = () => {
         <div className="header-content">
           <div className="logo">
             <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
-              Portfolio
+              Prince's Portfolio
             </a>
           </div>
           
