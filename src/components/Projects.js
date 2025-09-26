@@ -32,7 +32,16 @@ const Projects = () => {
           {projects.map((project) => (
             <div key={project.id} className={`project-card ${project.featured ? 'featured' : ''}`}>
               <div className="project-image">
-                <div className="image-placeholder">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="project-screenshot"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+                <div className="image-placeholder" style={{display: 'none'}}>
                   <div className="placeholder-content">
                     <h3>{project.title}</h3>
                     <p>Project Screenshot</p>
