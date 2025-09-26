@@ -9,9 +9,9 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p className="about-description">
-              I'm a passionate full-stack web developer with over 3 years of experience 
+              I'm a passionate full-stack web developer with over 10 years of experience 
               creating digital solutions that make a difference. I specialize in building 
-              responsive web applications using modern technologies like React, Node.js, 
+              responsive web applications using modern technologies like PHP, Laravel, 
               and cloud platforms.
             </p>
             <p className="about-description">

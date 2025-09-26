@@ -166,20 +166,33 @@ const Projects = () => {
           {projects.map((project) => (
             <div key={project.id} className={`project-card ${project.featured ? 'featured' : ''}`}>
               <div className="project-image">
-                <div className="image-placeholder">
-                  <div className="placeholder-content">
-                    <h3>{project.title}</h3>
-                    <p>Project Screenshot</p>
+                {project.image ? (
+                  <img src={project.image} alt={project.title} />
+                ) : (
+                  <div className="image-placeholder">
+                    <div className="placeholder-content">
+                      <h3>{project.title}</h3>
+                      <p>Project Screenshot</p>
+                    </div>
                   </div>
-                </div>
+                )}
                 <div className="project-overlay">
                   <div className="project-links">
-                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="project-link">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                      </svg>
-                      Live Demo
-                    </a>
+                    {project.live && project.live !== '#' ? (
+                      <a href={project.live} target="_blank" rel="noopener noreferrer" className="project-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                        Live Demo
+                      </a>
+                    ) : (
+                      <span className="project-link disabled">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                        Demo Not Available
+                      </span>
+                    )}
                   </div>
                 </div>
               </div>
