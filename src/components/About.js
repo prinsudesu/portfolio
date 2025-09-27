@@ -31,7 +31,7 @@ const About = () => {
               </div>
               <div className="stat">
                 <h3>100%</h3>
-                <p>Client Satisfaction</p>
+                <p>Delivery Excellence</p>
               </div>
             </div>
           </div>
