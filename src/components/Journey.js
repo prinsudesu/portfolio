@@ -24,7 +24,7 @@ const Journey = () => {
     {
       year: '2016 - 2021',
       title: 'First Professional Role',
-      description: 'Landed my first job as a Full-Stack Web Developer / New Technology Data Analyst / System Administrator in a Primeline Products Philippines Inc.',
+      description: 'Landed my first job as a Full-Stack Web Developer / New Technology Data Analyst / System Administrator',
       type: 'career milestone'
     },
     {
