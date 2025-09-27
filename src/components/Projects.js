@@ -80,7 +80,7 @@ const Projects = () => {
       title: 'Initial Care Website & Backoffice',
       description: 'A website and backoffice for Initial Care.',
       image: '/resources/ic.jpg',
-      technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript'],
+      technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript', 'GraphQL'],
       live: '#',
       featured: true
     },
