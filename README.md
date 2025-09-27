@@ -5,6 +5,7 @@ A modern, responsive web developer portfolio built with React and optimized for 
 ## Features
 
 - 🎨 Modern, clean design with smooth animations
+- 🌙 Dark mode support with smooth transitions
 - 📱 Fully responsive across all devices
 - ⚡ Fast loading and optimized performance
 - 🚀 Ready for Netlify deployment
@@ -87,8 +88,9 @@ Update the following files with your personal information:
 ### Styling
 
 - Modify CSS files in the `src/components/` directory
-- Update colors in CSS custom properties
+- Update colors in CSS custom properties (both light and dark mode)
 - Add your own images to the `public` folder
+- Dark mode toggle is automatically included in the header
 
 ### Content
 
@@ -101,6 +103,8 @@ Update the following files with your personal information:
 
 ```
 src/
+├── contexts/
+│   └── DarkModeContext.js
 ├── components/
 │   ├── Header.js & Header.css
 │   ├── Hero.js & Hero.css

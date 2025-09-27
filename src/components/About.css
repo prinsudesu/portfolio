@@ -1,5 +1,6 @@
 .about {
-  background: #f8f9fa;
+  background: var(--bg-secondary);
+  transition: background 0.3s ease;
 }
 
 .about-content {
@@ -18,8 +19,9 @@
 .about-description {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #666;
+  color: var(--text-secondary);
   margin-bottom: 1.5rem;
+  transition: color 0.3s ease;
 }
 
 .about-stats {
@@ -32,10 +34,11 @@
 .stat {
   text-align: center;
   padding: 1.5rem;
-  background: white;
+  background: var(--bg-primary);
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  box-shadow: 0 5px 15px var(--shadow-color);
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
 }
 
 .stat:hover {
@@ -45,13 +48,15 @@
 .stat h3 {
   font-size: 2rem;
   font-weight: 700;
-  color: #667eea;
+  color: var(--accent-primary);
   margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
 }
 
 .stat p {
-  color: #666;
+  color: var(--text-secondary);
   font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 

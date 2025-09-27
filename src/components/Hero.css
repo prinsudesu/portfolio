@@ -2,9 +2,10 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
   position: relative;
   overflow: hidden;
+  transition: background 0.3s ease;
 }
 
 .hero::before {
@@ -36,11 +37,12 @@
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: var(--text-accent);
+  transition: color 0.3s ease;
 }
 
 .highlight {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -49,16 +51,18 @@
 .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 500;
-  color: #667eea;
+  color: var(--accent-primary);
   margin-bottom: 1.5rem;
+  transition: color 0.3s ease;
 }
 
 .hero-description {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #666;
+  color: var(--text-secondary);
   margin-bottom: 2rem;
   max-width: 500px;
+  transition: color 0.3s ease;
 }
 
 .hero-buttons {
@@ -97,9 +101,10 @@
 .scroll-indicator {
   width: 30px;
   height: 50px;
-  border: 2px solid #667eea;
+  border: 2px solid var(--accent-primary);
   border-radius: 25px;
   position: relative;
+  transition: border-color 0.3s ease;
 }
 
 .scroll-arrow {
@@ -109,9 +114,10 @@
   transform: translateX(-50%);
   width: 4px;
   height: 8px;
-  background: #667eea;
+  background: var(--accent-primary);
   border-radius: 2px;
   animation: scrollMove 2s infinite;
+  transition: background 0.3s ease;
 }
 
 @keyframes slideInLeft {

@@ -1,5 +1,6 @@
 .contact {
-  background: white;
+  background: var(--bg-primary);
+  transition: background 0.3s ease;
 }
 
 .contact-content {
@@ -12,15 +13,17 @@
 .contact-info h3 {
   font-size: 2rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--text-accent);
   margin-bottom: 1rem;
+  transition: color 0.3s ease;
 }
 
 .contact-info p {
   font-size: 1.1rem;
-  color: #666;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 2rem;
+  transition: color 0.3s ease;
 }
 
 .contact-details {
@@ -34,20 +37,21 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background: #f8f9fa;
+  background: var(--bg-secondary);
   border-radius: 10px;
   transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
 }
 
 .contact-item:hover {
-  background: #e9ecef;
+  background: var(--bg-tertiary);
   transform: translateX(5px);
 }
 
 .contact-icon {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -59,20 +63,24 @@
 .contact-item h4 {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--text-accent);
   margin-bottom: 0.25rem;
+  transition: color 0.3s ease;
 }
 
 .contact-item p {
-  color: #666;
+  color: var(--text-secondary);
   margin: 0;
+  transition: color 0.3s ease;
 }
 
 .contact-form {
-  background: #f8f9fa;
+  background: var(--bg-secondary);
   padding: 2rem;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px var(--shadow-color);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
 }
 
 .form-group {
@@ -83,18 +91,19 @@
 .form-group textarea {
   width: 100%;
   padding: 1rem;
-  border: 2px solid #e9ecef;
+  border: 2px solid var(--border-color);
   border-radius: 10px;
   font-size: 1rem;
-  transition: border-color 0.3s ease;
-  background: white;
+  transition: all 0.3s ease;
+  background: var(--bg-primary);
+  color: var(--text-primary);
   font-family: inherit;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: var(--accent-primary);
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
