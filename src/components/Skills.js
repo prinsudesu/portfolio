@@ -11,7 +11,6 @@ const Skills = () => {
         { name: 'React' },
         { name: 'Bootstrap' },
         { name: 'Tailwind CSS' },
-        { name: 'Alpine.js' },
         { name: 'Livewire' }
       ]
     },
