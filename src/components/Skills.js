@@ -19,7 +19,8 @@ const Skills = () => {
       title: 'Backend',
       skills: [
         { name: 'PHP' },
-        { name: 'GraphQL' }
+        { name: 'GraphQL' },
+        { name: 'Python' }
       ]
     },
     {
