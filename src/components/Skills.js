@@ -6,37 +6,79 @@ const Skills = () => {
     {
       title: 'Frontend',
       skills: [
-        { name: 'Bootstrap' },
-        { name: 'JavaScript' },
         { name: 'HTML/CSS' },
+        { name: 'JavaScript' },
+        { name: 'React' },
+        { name: 'Bootstrap' },
         { name: 'Tailwind CSS' },
-        { name: 'Livewire' },
         { name: 'Alpine.js' },
-        { name: 'React' }
+        { name: 'Livewire' }
       ]
     },
     {
       title: 'Backend',
       skills: [
         { name: 'PHP' },
-        { name: 'Laravel' },
-        { name: 'SQLite' },
-        { name: 'MySQL' },
-        { name: 'SQL Server' },
-        { name: 'PostgreSQL' },
         { name: 'GraphQL' }
       ]
     },
     {
-      title: 'Tools & Others',
+      title: 'Framework & CMS',
+      skills: [
+        { name: 'Laravel' },
+        { name: 'WordPress' },
+        { name: 'Shopify' }
+      ]
+    },
+    {
+      title: 'Cloud',
+      skills: [
+        { name: 'AWS' },
+        { name: 'Azure' },
+        { name: 'Google Cloud' },
+        { name: 'Cloudflare' },
+        { name: 'Shared Hosting' },
+        { name: 'VPS Hosting' },
+        { name: 'Hostinger' },
+        { name: 'Hostgator' },
+        { name: 'Heroku' },
+        { name: 'Namecheap' },
+        { name: 'cPanel' },
+        { name: 'Plesk' },
+        { name: 'WHM' },
+        { name: 'Apache' },
+        { name: 'Nginx' },
+        { name: 'IIS' }
+      ]
+    },
+    {
+      title: 'Database',
+      skills: [
+        { name: 'SQLite' },
+        { name: 'MySQL' },
+        { name: 'SQL Server' },
+        { name: 'PostgreSQL' }
+      ]
+    },
+    {
+      title: 'Design',
+      skills: [
+        { name: 'Figma' },
+        { name: 'Zeplin' },
+        { name: 'Canva' },
+        { name: 'Adobe Photoshop' },
+        { name: 'Adobe Premiere Pro' }
+      ]
+    },
+    {
+      title: 'Workflow Platforms',
       skills: [
         { name: 'Git' },
         { name: 'Linux' },
-        { name: 'AWS' },
-        { name: 'Figma' },
         { name: 'Agile' },
-        { name: 'WordPress' },
-        { name: 'Shopify' }
+        { name: 'Jira' },
+        { name: 'Trello' },
+        { name: 'Postman' }
       ]
     },
     {
