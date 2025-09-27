@@ -79,7 +79,7 @@ const Projects = () => {
       id: 9,
       title: 'Initial Care Website & Backoffice',
       description: 'A website and backoffice for Initial Care.',
-      image: '',
+      image: '/resources/ic.jpg',
       technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript'],
       live: '#',
       featured: true
