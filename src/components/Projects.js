@@ -26,7 +26,7 @@ const Projects = () => {
       title: 'VeritasPay Philippines Inc.',
       description: 'A website for VeritasPay Philippines Inc.',
       image: '/resources/3.png',
-      technologies: ['WordPress', 'HTML', 'CSS'],
+      technologies: ['WordPress', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
       live: 'https://veritaspay.com',
       featured: true
     },
@@ -35,7 +35,7 @@ const Projects = () => {
       title: 'VeritasPay Hosted Checkout Shopify Plugin',
       description: 'A Shopify plugin for VeritasPay Philippines Inc.',
       image: '/resources/4.png',
-      technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript'],
+      technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript', 'GraphQL'],
       live: 'https://apps.shopify.com/veritaspay-hosted-checkout',
       featured: true
     },
@@ -53,7 +53,7 @@ const Projects = () => {
       title: 'Primeline Document Management System',
       description: 'Web Application to store all the records of documents in their warehouse using PHP, JS,  CSS, and MySQL queries. Over 150 people have used it.',
       image: '',
-      technologies: ['PHP', 'HTML', 'CSS', 'JavaScript'],
+      technologies: ['PHP', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
       live: '#',
       featured: true
     },
@@ -62,7 +62,7 @@ const Projects = () => {
       title: 'Primeline Leave System',
       description: 'Web Application to apply and monitor all filed leaves using PHP, JS,  CSS, and MySQL queries. Over 2000 people have used it so far, with 5000+ queries being saved.',
       image: '',
-      technologies: ['PHP', 'HTML', 'CSS', 'JavaScript'],
+      technologies: ['PHP', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
       live: '#',
       featured: true
     },
@@ -89,7 +89,7 @@ const Projects = () => {
       title: 'Primeline Sales Report',
       description: 'Built a System Reporting web app that collects all sales from all the stores of Primeline.',
       image: '',
-      technologies: ['PHP', 'HTML', 'CSS', 'JavaScript'],
+      technologies: ['PHP', 'HTML', 'CSS', 'JavaScript', 'SQL Server'],
       live: '#',
       featured: true
     },
@@ -125,7 +125,7 @@ const Projects = () => {
       title: 'Glenhams Pricing Web App',
       description: 'Built a web app using PHP, JavaScript, and CSS, integrating API connectivity with Odoo.',
       image: '',
-      technologies: ['PHP', 'HTML', 'CSS', 'JavaScript'],
+      technologies: ['PHP', 'HTML', 'CSS', 'JavaScript', 'Odoo API'],
       live: '#',
       featured: true
     },
@@ -143,7 +143,7 @@ const Projects = () => {
       title: 'Glenhams Order, Sales & Inventory App',
       description: 'Built a web app using Laravel, PHP, JavaScript, and CSS, integrating API connectivity with WooCommerce.',
       image: '',
-      technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript'],
+      technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript', 'WooCommerce API'],
       live: '#',
       featured: true
     },
