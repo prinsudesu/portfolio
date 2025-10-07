@@ -140,7 +140,7 @@ const Projects = () => {
     },
     {
       id: 16,
-      title: 'Glenhams Order, Sales & Inventory App',
+      title: 'Glenhams Order Management System',
       description: 'Built a web app using Laravel, PHP, JavaScript, and CSS, integrating API connectivity with WooCommerce.',
       image: '',
       technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'JavaScript', 'WooCommerce API'],
